@@ -1,1 +1,1 @@
-# Soin-Wingame
+# Spin-and-Win-Game-
