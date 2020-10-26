@@ -38,19 +38,19 @@ function game()
     function preload()
     {
         // now we load the images 
-        this.load.image('background','./assests/back.jpg');
-        this.load.image('pin','./assests/finalpin.png');
-        this.load.image('wheel','./assests/FinalWheel1.png');
-        this.load.image('stand','./assests/stand.png');
-        this.load.image('spin_logo','./assests/spin-n-win-logo.png'); 
-        this.load.image('button','./assests/spin_btn.png');
-        //this.load.image('congratulation','./assests/congratulation.png');
-        //this.load.image('sad','./assests/sad.png');
-        this.load.audio('theme','./assests/wheel-audio.mp3');
-        this.load.audio('thug','./assests/thuglife.mp3');
-        this.load.audio('sadaudio','./assests/sad.mp3');
-        this.load.audio('clap','./assests/clap.mp3');
-        this.load.audio('Rider_provider','./assests/Rider_provider.mp3');
+        this.load.image('background','./back.jpg');
+        this.load.image('pin','./finalpin.png');
+        this.load.image('wheel','./FinalWheel1.png');
+        this.load.image('stand','./stand.png');
+        this.load.image('spin_logo','./spin-n-win-logo.png'); 
+        this.load.image('button','./spin_btn.png');
+        //this.load.image('congratulation','./congratulation.png');
+        //this.load.image('sad','./sad.png');
+        this.load.audio('theme','./wheel-audio.mp3');
+        this.load.audio('thug','./thuglife.mp3');
+        this.load.audio('sadaudio','./sad.mp3');
+        this.load.audio('clap','./clap.mp3');
+        this.load.audio('Rider_provider','./Rider_provider.mp3');
         
     }
     function create()
